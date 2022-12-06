@@ -71,5 +71,4 @@ WARNING!!! WARNING!!!
       helloSpeaker.speak(names[name]);
     }
   }  
-  window.names = names;
 })(window);
