@@ -63,4 +63,14 @@ WARNING!!! WARNING!!!
 
 (function (window) {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  for (var name in names) {
+    var firstLetter = function (name) {
+      return name.charAt(0);
+    }
+    if (firsLetter.toLowerCase() === 'j') {
+      byeSpeaker.speak(name);
+    } else {
+      helloSpeaker.speak(name);
+    } 
+  }  
 })(window);
