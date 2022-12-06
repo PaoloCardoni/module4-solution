@@ -63,6 +63,7 @@ WARNING!!! WARNING!!!
 
 (function (window) {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  
   for (var name in names) {
     var firstLetter = function (name) {
       return name.charAt(0);
@@ -71,6 +72,6 @@ WARNING!!! WARNING!!!
       byeSpeaker.speak(name);
     } else {
       helloSpeaker.speak(name);
-    } 
+    }
   }  
 })(window);
