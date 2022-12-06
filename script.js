@@ -66,9 +66,9 @@ WARNING!!! WARNING!!!
   
   for (var name in names) {
     var firstLetter = function (name) {
-      return name.charAt(0);
+      return name.toLowerCase().charAt(0);
     }
-    if (firstLetter.toLowerCase() === 'j') {
+    if (firstLetter === 'j') {
       byeSpeaker.speak(name);
     } else {
       helloSpeaker.speak(name);
