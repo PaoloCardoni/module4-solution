@@ -33,3 +33,4 @@
   }
   window.byeSpeaker = byeSpeaker;
 })(window);  
+
