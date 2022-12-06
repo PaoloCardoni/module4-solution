@@ -67,7 +67,7 @@ WARNING!!! WARNING!!!
     var firstLetter = function (name) {
       return name.charAt(0);
     }
-    if (firsLetter.toLowerCase() === 'j') {
+    if (firstLetter.toLowerCase() === 'j') {
       byeSpeaker.speak(name);
     } else {
       helloSpeaker.speak(name);
