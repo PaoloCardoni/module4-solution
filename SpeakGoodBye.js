@@ -27,9 +27,9 @@
 (function (window) {
   var byeSpeaker = {};
   var speakWord = "Good Bye";
-  //byeSpeaker.name = "John";
+  byeSpeaker.name = $name || "John";
   byeSpeaker.speak = function () {
-    console.log(speakWord + " " + byeSpeaker.$name);
+    console.log(speakWord + " " + byeSpeaker.name);
   }
   window.byeSpeaker = byeSpeaker;
 })(window);  
