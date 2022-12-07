@@ -24,13 +24,10 @@
 // xxxx.xxxx = helloSpeaker;
 
 (function (window) {
-  
   var helloSpeaker = {};
   var speakWord = "Hello";
-  helloSpeaker.name = window.name || "Yaakov";
-  helloSpeaker.speak = function () {
-    console.log(speakWord + " " + helloSpeaker.name);
+  helloSpeaker.speak = function (name) {
+    console.log(speakWord + " " + name);
   }
   window.helloSpeaker = helloSpeaker;
-  
 })(window);
