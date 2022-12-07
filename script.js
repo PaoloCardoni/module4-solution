@@ -63,6 +63,7 @@ WARNING!!! WARNING!!!
 
 (function (window) {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  
   for (var name in names) {
     var firstLetter = names[name].toLowerCase().charAt(0);
     window.name = names[name];
@@ -72,4 +73,5 @@ WARNING!!! WARNING!!!
       helloSpeaker.speak(window.name);
     }
   }  
+  
 })(window);
