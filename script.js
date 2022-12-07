@@ -65,10 +65,11 @@ WARNING!!! WARNING!!!
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   for (var name in names) {
     var firstLetter = names[name].toLowerCase().charAt(0);
-    window.names[name] = names[name];
     if (firstLetter === 'j') {
+      byeSpeaker.name = names[name];
       byeSpeaker.speak(names[name]);
     } else {
+      helloSpeaker.name = names[name];
       helloSpeaker.speak(names[name]);
     }
   }  
