@@ -25,6 +25,7 @@
 // xxxx.xxxx = byeSpeaker;
 
 (function (window) {
+  
   var byeSpeaker = {};
   var speakWord = "Good Bye";
   byeSpeaker.name = window.name || "John";
@@ -32,5 +33,6 @@
     console.log(speakWord + " " + byeSpeaker.name);
   }
   window.byeSpeaker = byeSpeaker;
+  
 })(window);  
 
